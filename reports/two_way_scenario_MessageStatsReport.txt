@@ -1,0 +1,20 @@
+Message stats for scenario two_way_scenario
+sim_time: 6000.0000
+created: 3534
+started: 3470
+relayed: 3470
+aborted: 0
+dropped: 0
+removed: 3470
+delivered: 2960
+delivery_prob: 0.8376
+response_prob: 0.0000
+overhead_ratio: 0.1723
+latency_avg: 0.5998
+latency_med: 0.6000
+hopcount_avg: 1.1453
+hopcount_med: 1
+buffertime_avg: 0.5542
+buffertime_med: 0.5500
+rtt_avg: NaN
+rtt_med: NaN

@@ -1,0 +1,34 @@
+#Default setting for the simulation
+Scenario.name = my_simulator
+
+#Group
+Scenario.nrofHostGroups = 3
+Group.nrofHosts = 1
+Group.movementModel = StationaryMovement
+ 
+Group1.groupID = A
+Group1.nodeLocation = 0,0
+ 
+Group2.groupID = B
+Group2.nodeLocation = 6,0
+ 
+Group3.groupID = R
+Group3.nodeLocation = 8,0
+
+
+
+Events.nrof = 2
+ 
+Events1.class = MessageEventGenerator
+Events1.interval = 4
+Events1.size = 1k,2k
+Events1.prefix = M
+
+
+Events1.hosts = 0,1
+Events1.tohosts = 1,2
+
+GUI.EventLogPanel.nrofEvents = 1
+
+# World's size for Movement Models without implicit size (width, height; meters)
+MovementModel.worldSize = 20, 20 

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//core/DTNHost.java=UTF-8
+encoding//core/DTNSim.java=UTF-8
+encoding//core/Message.java=UTF-8
+encoding//core/SimScenario.java=UTF-8
+encoding//core/World.java=UTF-8
+encoding//input/EventQueueHandler.java=UTF-8
+encoding//movement/RandomWalk.java=UTF-8
+encoding//routing/ActiveRouter.java=UTF-8
+encoding//routing/MessageRouter.java=UTF-8
+encoding//routing/myRouter.java=UTF-8
